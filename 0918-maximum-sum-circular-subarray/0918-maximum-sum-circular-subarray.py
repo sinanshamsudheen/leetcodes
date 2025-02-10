@@ -11,7 +11,7 @@ class Solution(object):
             maxEndingHere = max(nums[i], maxEndingHere + nums[i])
             maxSoFar = max(maxSoFar, maxEndingHere)
         
-            minEndingHere = min(arr[i], minEndingHere +nums[i])
+            minEndingHere = min(nums[i], minEndingHere +nums[i])
             minSoFar = min(minSoFar, minEndingHere)
         
             totalSum += nums[i]
